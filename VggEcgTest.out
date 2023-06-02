@@ -1,0 +1,158 @@
+2023-05-31 11:16:24.913328: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2023-05-31 11:16:27.848940: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-05-31 11:16:27.850033: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2023-05-31 11:16:27.889583: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:3d:00.0 name: GeForce RTX 3090 computeCapability: 8.6
+coreClock: 1.695GHz coreCount: 82 deviceMemorySize: 23.70GiB deviceMemoryBandwidth: 871.81GiB/s
+2023-05-31 11:16:27.889637: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2023-05-31 11:16:27.893931: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2023-05-31 11:16:27.894009: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2023-05-31 11:16:27.895821: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-05-31 11:16:27.896590: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-05-31 11:16:27.899262: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2023-05-31 11:16:27.900498: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2023-05-31 11:16:27.901097: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2023-05-31 11:16:27.905346: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2023-05-31 11:16:27.905701: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX512F
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-05-31 11:16:27.905826: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-05-31 11:16:27.908021: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:3d:00.0 name: GeForce RTX 3090 computeCapability: 8.6
+coreClock: 1.695GHz coreCount: 82 deviceMemorySize: 23.70GiB deviceMemoryBandwidth: 871.81GiB/s
+2023-05-31 11:16:27.908052: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2023-05-31 11:16:27.908073: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2023-05-31 11:16:27.908088: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2023-05-31 11:16:27.908103: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-05-31 11:16:27.908117: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-05-31 11:16:27.908131: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2023-05-31 11:16:27.908145: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2023-05-31 11:16:27.908160: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2023-05-31 11:16:27.912291: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2023-05-31 11:16:27.912332: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2023-05-31 11:16:28.626251: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-05-31 11:16:28.626298: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2023-05-31 11:16:28.626308: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2023-05-31 11:16:28.632690: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:39] Overriding allow_growth setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+2023-05-31 11:16:28.632742: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 22428 MB memory) -> physical GPU (device: 0, name: GeForce RTX 3090, pci bus id: 0000:3d:00.0, compute capability: 8.6)
+2023-05-31 11:17:18.601086: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2023-05-31 11:17:18.601912: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2300000000 Hz
+2023-05-31 11:17:18.910074: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2023-05-31 11:17:19.586943: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2023-05-31 11:17:19.588335: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2023-05-31 11:17:22.064581: I tensorflow/stream_executor/cuda/cuda_blas.cc:1838] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+/home/lijipeng/.conda/envs/ljp/lib/python3.6/site-packages/sklearn/utils/validation.py:63: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  return f(*args, **kwargs)
+(300, 96)
+(500, 96)
+(700, 96)
+(900, 96)
+(1100, 96)
+(1300, 96)
+(1500, 96)
+(300, 96)
+(500, 96)
+(700, 96)
+(900, 96)
+(1100, 96)
+(1300, 96)
+(1500, 96)
+(300, 96)
+(500, 96)
+(700, 96)
+(900, 96)
+(1100, 96)
+(1300, 96)
+(1500, 96)
+(300, 96)
+(500, 96)
+(700, 96)
+(900, 96)
+(1100, 96)
+(1300, 96)
+(1500, 96)
+(300, 96)
+(500, 96)
+(700, 96)
+(900, 96)
+(1100, 96)
+(1300, 96)
+(1500, 96)
+Script completed: --num_filter_block=64 --nb_cnn=6
